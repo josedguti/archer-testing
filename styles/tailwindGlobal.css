@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+  .ant-table-thead > tr > th, ::before, ::after {
+    background: none;
+    font-size: small;
+   text-align: center;
+   
+   
+  }
+
+
+
+  @font-face {
+      font-family: 'Gt walsheim';
+      src: url('../public/fonts/GT-Walsheim-Bold.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Bold.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Bold.ttf') format('truetype'), url('../public/fonts/GT-Walsheim-Bold.ttf') format('opentype');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Gt walsheim';
+      src: url('../public/fonts/GT-Walsheim-Regular-Oblique.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Regular-Oblique.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Regular-Oblique.ttf') format('truetype'), url('../public/fonts/GT-Walsheim-Regular-Oblique.ttf') format('opentype');
+      font-weight: 400;
+      font-style: italic;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Gt walsheim ultra';
+      src: url('../public/fonts/GT-Walsheim-Ultra-Bold-Oblique.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Ultra-Bold-Oblique.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Ultra-Bold-Oblique.ttf') format('truetype'), url('../public/fonts/GT-Walsheim-Ultra-Bold-Oblique.ttf') format('opentype');
+      font-weight: 700;
+      font-style: italic;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Gt walsheim';
+      src: url('../public/fonts/GT-Walsheim-Bold-Oblique.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Bold-Oblique.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Bold-Oblique.ttf') format('truetype'), url('../public/fonts/GT-Walsheim-Bold-Oblique.ttf') format('opentype');
+      font-weight: 700;
+      font-style: italic;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Gt walsheim';
+      src: url('../public/fonts/GT-Walsheim-Regular.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Regular.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Regular.ttf') format('truetype'), url('../public/fonts/GT-Walsheim-Regular.ttf') format('opentype');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Gt walsheim';
+      src: url('../public/fonts/GT-Walsheim-Medium-Oblique.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Medium-Oblique.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Medium-Oblique.ttf') format('truetype'), url('../public/fonts/GT-Walsheim-Medium-Oblique.ttf') format('opentype');
+      font-weight: 500;
+      font-style: italic;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Gt walsheim';
+      src: url('../public/fonts/GT-Walsheim-Medium.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Medium.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Medium.ttf') format('truetype'), url('../public/fonts/GT-Walsheim-Medium.ttf') format('opentype');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Gt walsheim ultra';
+      src: url('../public/fonts/GT-Walsheim-Ultra-Bold.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Ultra-Bold.ttf') format('ttf'), url('../public/fonts/GT-Walsheim-Ultra-Bold.ttf') format('truetype'), url('../public/fonts/GT-Walsheim-Ultra-Bold.ttf') format('opentype');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    /* Fira Code is the project's mono typeface. It is only used to display code examples in the style guide. */
+    @font-face {
+      font-family: 'Fira Code';
+      src: url('../public/fonts/FiraCode-Regular.woff2') format('woff2'),
+        url("../public/fonts/FiraCode-Regular.woff") format("woff");
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    body{
+      font-family: "Gt walsheim";
+    }
+}
+

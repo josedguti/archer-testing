@@ -1,0 +1,24 @@
+name: Prisma Deploy
+
+
+on:
+  push:
+    branches: [ dev ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: ${{secrets.DATABASE_URL}}
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: install dependencies
+        run: npm i
+      - name: deploy changes to production database
+        run: npx prisma migrate deploy
+      - name: Last check
+        run: echo "Job completed!"
