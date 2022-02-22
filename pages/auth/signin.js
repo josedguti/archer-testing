@@ -13,7 +13,7 @@ export default function SignIn({ providers }) {
           <div className="sticky top-0 z-10 flex flex-shrink-0 h-16 bg-white">
             <div className="flex flex-1 px-8">
               <div className="flex flex-1">
-                <Link href={"/"}>
+                <Link href={"/"} passHref>
                   <Image
                     alt="Archer logo"
                     src={archerLogoPurple}
